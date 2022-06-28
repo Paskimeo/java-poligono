@@ -8,6 +8,14 @@ public class Triangolo implements PerimetroArea {
 
 		//costruttore
 		public Triangolo (int altezza, int lunghezza,int lato) {
+			
+			
+			if (altezza <= 0 || lunghezza <= 0 || lato <= 0) {
+			     throw new NullPointerException("il valore non puo essere 0 o negativo");
+			     }
+			
+			
+			
 			this.altezza=altezza;
 			this.lunghezza=lunghezza;
 			this.lato=lato;

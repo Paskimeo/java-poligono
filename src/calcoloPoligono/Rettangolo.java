@@ -6,7 +6,14 @@ public class Rettangolo implements PerimetroArea {
 	 private int altezza,lunghezza;
 
 	//costruttore
-	public Rettangolo (int altezza, int lunghezza) {
+	public Rettangolo (int altezza, int lunghezza)throws NullPointerException {
+		
+		if (altezza <= 0 || lunghezza <= 0) {
+		     throw new NullPointerException("il valore non puo essere 0 o negativo");
+		     }
+		
+		
+		
 		this.altezza=altezza;
 		this.lunghezza=lunghezza;
 	}
