@@ -9,9 +9,9 @@ public class test
 		//rettango test
 		try 
 		{
-			Rettangolo ret = new Rettangolo(1, 10);
-			ret.calcoloArea();
-			ret.calcoloPerimetro();
+			Rettangolo ret = new Rettangolo(10, 10);
+			System.out.println(ret.calcoloArea());
+			System.out.println(ret.calcoloPerimetro());
 		} catch (NullPointerException  e) 
 		{
 		  System.out.println("Dati non validi");
@@ -29,8 +29,8 @@ public class test
 		try {
 			Triangolo tri = new Triangolo(10, 20, 13);
 			
-			tri.calcoloArea();
-			tri.calcoloPerimetro();
+			System.out.println(tri.calcoloArea());
+			System.out.println(tri.calcoloPerimetro());
 		}catch (NullPointerException  e) 
 		{
 			  System.out.println("Dati non validi");

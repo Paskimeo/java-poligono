@@ -46,14 +46,14 @@ public class Rettangolo implements PerimetroArea {
 
 	//metodi
 	 @Override
-	 public void calcoloPerimetro() {
-		 System.out.println((lunghezza + altezza) * 2);
+	 public int calcoloPerimetro() {
+		return (lunghezza + altezza) * 2;
 
 	 }
 	 
 	 
 	 @Override
-	 public void calcoloArea() {
-		System.out.println(lunghezza * altezza);
+	 public int calcoloArea() {
+		return (lunghezza * altezza);
 	 }
 }

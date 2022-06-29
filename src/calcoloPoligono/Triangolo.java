@@ -59,15 +59,15 @@ public class Triangolo implements PerimetroArea {
 
 		//metodi
 		 @Override
-		 public void calcoloPerimetro() {
-			 System.out.println(lato * 3);
+		 public int calcoloPerimetro() {
+			 return lato * 3;
 
 		 }
 		 
 		 
 		 @Override
-		 public void calcoloArea() {
-			System.out.println((lunghezza * altezza)/2);
+		 public int calcoloArea() {
+			return (lunghezza * altezza)/2;
 		 }
 	
 }

@@ -3,8 +3,8 @@ package calcoloPoligono;
 public interface PerimetroArea {
 	
 	
-	public void calcoloPerimetro();
+	public int calcoloPerimetro();
 	
-	public void calcoloArea();
+	public int calcoloArea();
 
 }
